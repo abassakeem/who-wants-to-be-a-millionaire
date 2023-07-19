@@ -1,0 +1,72 @@
+.quiz-container{
+    
+  
+}
+.practice-section{
+    
+    padding: 80px;
+    box-shadow: 5px 5px 15px 5px  #ebe8e8;
+    border-radius: 35px;
+}
+.quiz-text{
+    font-size: 64px;
+}
+.quiz-question{
+    font-size: 1em;
+    padding-top: 15px;
+    border-top: 2px solid #0a2b1e ;
+}
+.quiz-logo-img{
+    height: 18px;
+}
+.options{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center
+}
+.quiz-logo-text{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.hint-logo{
+    margin-right: 1.2em;
+}
+.lifeline-logo{
+    margin-right: 0.5em;
+    
+}
+.clock-logo{
+    height: 16px;
+    margin-right: 0.2em;
+}
+.option{
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.25s;
+    border-radius: 15px 2px 20px ;
+}
+.option:hover{
+    cursor: pointer;
+    background: #c4c0c0;
+}
+.button-container{
+    margin: 10px;
+}
+.practice-quiz-button{
+    margin: 10px 10px 0 10px;
+}
+.disable{
+    background-color: #ccc;
+    opacity: 0.9;
+    cursor:not-allowed;
+}
+.disable:hover{
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+.option.selected {
+    background-color: #ff0000; /* Replace with your desired color */
+    color: #ffffff; /* Replace with your desired color */
+  }
+  

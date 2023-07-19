@@ -1,0 +1,61 @@
+.back-button{
+    background-color: var(--study-junction-red) ;
+}
+.back-button:hover{
+    background-color: var(--study-junction-red-hover) ;
+}
+
+
+.practice-test-container{
+    height: 100vh;
+    margin-top: 40px;
+    /* overflow: hidden; */
+}
+.browser-default{
+    font-size: 12px;
+}
+
+.practice-test{
+    padding: 50px 50px 0px  50px;
+    
+    
+    
+}
+.practice-test-container h2{
+    
+
+}
+.practice-test-text{
+    margin-bottom: 10px;
+}
+.practice-test a {
+    font-size: 22px;
+    margin:0 ;
+    border: none;
+    border-bottom: 1px solid ;
+    border-top: 1px solid ;
+}
+.practice-test a:hover{
+    background-color: black;
+    color: white;
+}
+.quiz-image{
+    height: 350px;
+}
+
+.practice-test-signin-button, .practice-test-start-button {
+    min-width: max-content;
+}
+.practice-test-signin-button{
+    color: #fff;
+    background-color: var(--study-junction-red) !important;
+}
+.practice-test-signin-button:hover{
+    color: #fff;
+    background-color:  #bd310d !important;
+    ;
+}
+/* .practice-test-start-button{
+    color: #fff;
+    background-color: var(--study-junction-black) !important;
+} */

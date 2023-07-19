@@ -1,0 +1,47 @@
+.courses-section{
+    text-align: center;
+    margin-top: 150px;
+}
+.course-button{
+    text-align: center;
+   
+}
+.course{
+    font-weight: bold;
+}
+.course-container{
+    
+    padding: 13px;
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 2px 1px 3px  #198754;
+    
+    
+}
+.offcanvas-courses{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.course-image{
+    width: 20px;
+    margin-left: 5px;
+}
+.more-courses-button{
+    border: none !important;
+    font-size: 10px;
+    background-color: transparent !important;
+    color: #000 !important
+}
+.more-img{
+    height: 18px !important;
+    padding: ;
+  
+
+}
+.more-img:hover{
+    border-bottom: 1px solid #E2451C;
+    border-top: 1px solid #E2451C;
+    
+}
