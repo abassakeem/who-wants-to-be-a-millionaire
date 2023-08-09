@@ -1,8 +1,11 @@
-.section{
+
+.hero-section{
     margin-top: 25px;
+    
+
 }
 .body-content{
-    
+    color: #f9f9f9;
 }
 .body-content h2{
     font-weight: 600;
@@ -49,4 +52,5 @@
 }
 .welcome-image{
     text-align: center;
+    width: 80%;
 }

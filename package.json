@@ -10,11 +10,16 @@
     "materialize-css": "^1.0.0-rc.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
+    "react-bootstrap-typeahead": "^6.2.3",
     "react-countup": "^6.4.2",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
+    "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

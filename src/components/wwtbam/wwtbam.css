@@ -1,0 +1,117 @@
+
+.everything{
+    background-color: #000;
+}
+div.wwtbam{
+    
+    /* background-color: #000; */
+    background: linear-gradient(to bottom,rgba(0,0,0,0.7), #020230), url("./../../assets/img/bg.jpg") center;
+    
+}
+.wwtbam-container{
+  
+    background-size: cover;
+    
+    height: 100vh;
+    z-index: 9999;
+    background-repeat: no-repeat;
+}
+.left-side{
+    border-right: 2px solid #fff;
+}
+
+.top{
+    position: relative;
+    height: 30%;
+    
+}
+.bottom{
+    height: 70%;
+}
+
+.timer{
+    width: 70px; 
+    height: 70px; 
+     border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 5px 0 0 10px;
+
+    
+     
+}
+
+.right-side{
+    height: 100vh;
+ 
+}
+
+
+
+.money-list{
+   
+    list-style: none;
+    color: #fff;
+   
+}
+
+.money-list-item-number{
+    font-size: 12px;
+    font-weight: lighter;
+    width: 30%; margin-right: 1em;
+}
+.money-list-item-amount{
+    font-size: 14px;
+    font-weight: 300;
+}
+.money-list-item {
+width: max-content;
+padding: 10px;
+border-radius: 10px;
+}
+.money-list-item.active{
+   
+    background-color: rgba(256,256,256,0.3)
+}
+.homepage-link{
+    text-decoration: none;
+
+}
+.startButton:hover{
+    background-color: rgba(66,76,66,0.8);
+    outline: 2px solid #000;
+    color: #fff;
+}
+div{
+    background-color: none;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .money-list {
+        /* margin: 0 auto;
+      position: absolute;
+      right:0;
+      top: 0;
+      bottom: 0; */
+      /* height: 100%;*/
+      padding: 10px 1px; 
+     
+     
+    }
+    .money-list-item-number{
+        font-size: 12px;
+        font-weight: lighter;
+        width: 15%;
+       
+        padding-right: 1px;
+        
+    }
+    .money-list-item {
+        width: min-content;
+        padding: 8px;
+        border-radius: 10px;
+        }
+  }

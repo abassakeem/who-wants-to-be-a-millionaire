@@ -1,39 +1,41 @@
-import { Button, Col, Container, Form, Image, Row } from "react-bootstrap";
-import img1 from "./../../../assets/img/welcome.svg";
+import {  Col, Container, Image, Row } from "react-bootstrap";
+import img1 from "./../../../assets/img/wwtbam.jpg";
 import './body.css'
 import { Link } from "react-router-dom/cjs/react-router-dom";
 
 const BodySection = () => {
     return ( 
-        <>
-        <Container>
-            <div className="section">
+        
+        <Container className="hero-whole-container ">
+            <div className="hero-section">
             <Row className="align-items-center justify-content-center">
-                <Col lg= "5" md="5">
+                
+            <Col  sm="6" className="d-flex justify-content-center align-items-center">
+                    <Image className="welcome-image text-center mb-5" src={img1} alt="" fluid /> </Col>
+                <Col  sm="6">
                     <div className="body-content">
-                    <h2 className="mb-4 " >StudyJunction<br/><small><span className="text-1"> Your All-in-One Exam Preparation Solution.</span></small>
+                    <h2 className="mb-4 " >WHO WANTS TO BE A MILLIONAIRE<br/><small><span className="text-1"> Become a millionaire today.</span></small>
                        
                        
                         
                     </h2>
-                    <p className="mb-4 text-3">Join StudyJunction today and experience a new way of studying and learning. Let us help you unlock your full academic potential and achieve the success you deserve.</p>
+                    <p className="mb-4 text-3">Test your brain and stand a chance to win a million naira</p>
                     <div className="search ">
                     <div className="d-flex mb-5 justify-content-center align-items-center search-form">
-                    <Link to="/signup" className="btn btn-primary signup-button m-2" >Sign Up</Link>
+                    <Link to="/start" className="btn btn-primary signup-button m-2" >Start Game</Link>
                         
-                        <Link to="/signin" className="btn btn-outline-success signin-button" >Sign In</Link>
+                        <Link to="/start" className="btn btn-outline-success signin-button" >Start Game</Link>
                     </div>
                     </div>
                     </div>
                     
                     
                 </Col>
-                <Col lg= "7" md="7">
-                    <Image className="welcome-image text-center mt-4" src={img1} alt="" fluid /> </Col>
+               
             </Row>
             </div>
         </Container>
-        </>
+        
      );
 }
  
